@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aun Kai Wen Homework</string>
+    <string name="Chocolate_box">Chocolate syrup</string>
+    <string name="Sprinkles_box">Sprinkles</string>
+    <string name="CrushedNut_box">CrushedNut</string>
+    <string name="Cherries_box">Cherries</string>
+    <string name="oriocookies_box">Orio cookie crumbles</string>
+    <string name="showtoast_button">SHOW TOAST</string>
+</resources>

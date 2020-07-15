@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/C.1"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:text="@string/Chocolate_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <CheckBox
+        android:id="@+id/C.2"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
+        android:text="@string/Sprinkles_box"
+        app:layout_constraintEnd_toEndOf="@+id/C.1"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="@+id/C.1"
+        app:layout_constraintTop_toBottomOf="@+id/C.1" />
+
+    <CheckBox
+        android:id="@+id/C.3"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
+        android:text="@string/CrushedNut_box"
+        app:layout_constraintEnd_toEndOf="@+id/C.2"
+        app:layout_constraintStart_toStartOf="@+id/C.2"
+        app:layout_constraintTop_toBottomOf="@+id/C.2" />
+
+    <CheckBox
+        android:id="@+id/C.4"
+        android:layout_width="222dp"
+        android:layout_height="43dp"
+        android:text="@string/Cherries_box"
+        app:layout_constraintEnd_toEndOf="@+id/C.3"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/C.3"
+        app:layout_constraintTop_toBottomOf="@+id/C.3" />
+
+    <CheckBox
+        android:id="@+id/C.5"
+        android:layout_width="222dp"
+        android:layout_height="43dp"
+        android:text="@string/oriocookies_box"
+        app:layout_constraintEnd_toEndOf="@+id/C.4"
+        app:layout_constraintStart_toStartOf="@+id/C.4"
+        app:layout_constraintTop_toBottomOf="@+id/C.4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:text="@string/showtoast_button"
+        app:layout_constraintEnd_toEndOf="@+id/C.5"
+        app:layout_constraintTop_toBottomOf="@+id/C.5"
+        android:onClick="showButtonClicked"/>
+
+</android.support.constraint.ConstraintLayout>
